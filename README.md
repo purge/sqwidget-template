@@ -17,3 +17,9 @@ mkdir app/lib/require-js/css
 cp app/lib/require-css/css-builder.js app/lib/require-css/css/
 cp app/lib/require-css/normalize.js app/lib/require-css/css/
 ```
+
+When you're done
+
+`make`
+
+and the widget build will be found inside dist/package
