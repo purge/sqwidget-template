@@ -1,4 +1,7 @@
-Installing
+A Simple template for a sqwidget application. Includes Ractive as a basis for rendering
+
+
+##Installing
 
 ```
 npm install -g volo
