@@ -16,7 +16,7 @@ Install new plugins with
 TEMPORARY, after install (i'll package my own require-css)
 
 ```
-mkdir app/lib/require-js/css
+mkdir app/lib/require-css/css
 cp app/lib/require-css/css-builder.js app/lib/require-css/css/
 cp app/lib/require-css/normalize.js app/lib/require-css/css/
 ```
