@@ -2,12 +2,12 @@ require({
   baseUrl: 'lib',
   paths: {
     'src': '../src',
-    'templates': '../templates'
+    'csssrc': '../css',
   },
   map: {
     '*': {
-      'selector': 'jquery',
-      //'css': 'require-css/css',
+      'css': 'require-css/css',
+      'less': 'require-less/less'
       //'is': 'require-is/is',
       //'cs': 'require-coffee/cs'
     }

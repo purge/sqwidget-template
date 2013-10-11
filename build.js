@@ -1,3 +1,5 @@
+//requirejs build config (r.js -o build.js)
+//
 {
   appDir: 'app',
   dir: 'dist',
@@ -11,6 +13,7 @@
     {
       name: '../main',
       include: ['src/index']
+      excludeShallow: ['require-css/css-builder', 'require-less/lessc-server', 'require-less/lessc']
     }
   ]
 }
