@@ -1,0 +1,15 @@
+var config = require('./package.json');
+
+module.exports = {
+  clean: {
+    summary: 'clean',
+    run: 'v.rm dist/*'
+  },
+  build: {
+    summary: 'build the module into dist under the right name',
+    run: [
+      'n.r.js -o build.js',
+      'v.mv dist/main.js dist/' + config.name + '.js'
+      ]
+    }
+};
