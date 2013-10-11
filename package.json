@@ -1,0 +1,15 @@
+{
+  "name": "sqwidget-application",
+  "version": "0.0.1",
+  "amd": {
+    "baseUrl": "app/lib"
+  },
+  "volo": {
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.1.8",
+      "require-ractive-plugin": "github:Rich-Harris/require-ractive-plugin/master",
+      "Ractive": "github:Rich-Harris/Ractive/v0.3.7",
+      "text": "github:requirejs/text/2.0.10"
+    }
+  }
+}
