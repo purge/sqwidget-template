@@ -23,3 +23,15 @@ When you're done
 `make`
 
 and the widget build will be found inside dist/package
+
+You can test at any time
+
+`npm install -g http-server`
+
+Run
+
+`http-server`
+
+And point your browser at `http://localhost:8080/app/index.html`
+
+
