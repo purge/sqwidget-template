@@ -12,8 +12,8 @@
   modules: [
     {
       name: '../main',
-      include: ['src/index']
-      excludeShallow: ['require-css/css-builder', 'require-less/lessc-server', 'require-less/lessc']
+      include: ['src/index'],
+      excludeShallow: ['css/css-builder', 'less/lessc-server', 'less/lessc']
     }
   ]
 }

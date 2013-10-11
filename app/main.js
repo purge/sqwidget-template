@@ -2,7 +2,6 @@ require({
   baseUrl: 'lib',
   paths: {
     'src': '../src',
-    'csssrc': '../css',
   },
   map: {
     '*': {
